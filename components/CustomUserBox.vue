@@ -131,7 +131,7 @@
 
 'kiwi public';
 
-import state from '@/libs/state';
+let state = kiwi.state;
 
 export default {
     props: ['buffer', 'network', 'user'],
